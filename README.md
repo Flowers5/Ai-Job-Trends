@@ -76,6 +76,8 @@ plt.show()
 ## WordCloud
 This Python script was created to generate a visually compelling word cloud that highlights the most in-demand skills for AI jobs in 2025. Using data from an Excel file, the code processes the required_skills column, calculates frequency counts, and visualizes them with a color gradient that reflects skill prominence. The goal was to transform raw job data into an eye-catching summary that makes trends in AI skills immediately clear and engaging.
 
+![Average Salary by Job Title](WordCloud.png)
+
 ```# Load data
 df = pd.read_excel("data.xlsx", sheet_name="Sheet1")
 df.columns = df.columns.str.strip()
